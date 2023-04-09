@@ -1,0 +1,24 @@
+{
+  "name": "ai_chatbot",
+  "version": "1.0.0",
+  "description": "Ai tutor which helps in learning Ai/ML concepts",
+  "main": "server/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node server/main.js",
+    "dev": "nodemon server/main.js"
+  },
+  "author": "aditya_sukhwani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.20.1",
+    "dotenv": "16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
