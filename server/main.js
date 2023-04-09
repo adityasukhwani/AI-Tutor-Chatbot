@@ -16,7 +16,7 @@ app.use(bodyParser.json())
 // serve static files from client folder (js, css, images, etc.)
 app.use(express.static(path.join(process.cwd(), 'client')))
 
-// create http post endpoint that accepts user input
+//Setting the global message according to the given architecture.
 global.messages = [
     {
         role: "system",
